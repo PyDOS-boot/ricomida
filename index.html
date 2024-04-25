@@ -23,7 +23,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400..700&family=Lobster&display=swap"
         rel="stylesheet">
-
 </head>
 
 <body>
@@ -71,7 +70,7 @@
                                     Enviar por correo
                                 </button>
                                 <button type="button" class="btn btn-light border" data-bs-toggle="tooltip"
-                                    data-bs-placement="right" title="Agrega esta receta a tus favoritos">
+                                    data-bs-placement="top" title="Agrega esta receta a tus favoritos">
                                     Añadir a favoritos
                                 </button>
                             </div>
@@ -131,7 +130,9 @@
 
         </div>
     </section>
+    <!-- Aqui comienza el cuerpo principal de la página -->
     <main>
+        <!-- En este contenedor se encuentra una receta y la preparación -->
         <div class="container pt-3 px-5">
             <hr style="opacity: 1">
             <div class="row pt-5">
@@ -165,17 +166,86 @@
                 <div class="col-md-6">
                     <h5 class="text-decoration-underline fw-bold pb-3">PREPARACIÓN</h5>
                     <ol>
-                        <li>Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales. </li><br>
-                        <li>Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar. </li>
-                        <li>Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar. </li><br>
+                        <li>Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar
+                            2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar
+                            y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el
+                            mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el
+                            mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol
+                            aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su
+                            volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos
+                            adicionales. </li><br>
+                        <li>Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio.
+                            Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla
+                            esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del
+                            tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya
+                            reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar. </li>
+                        <li>Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar
+                            los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el
+                            líquido que hayan votado los vegetales. Reservar. </li><br>
                         <li>Calentar el horno a 220C. </li><br>
-                        <li>Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el queso rallado. </li><br>
-                        <li>Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.</li>
+                        <li>Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos
+                            moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre
+                            las dos pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y
+                            finalmente espolvorear el queso rallado. </li><br>
+                        <li>Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y
+                            dorada. Esperar unos minutos antes de desmoldar.</li>
                     </ol>
                 </div>
             </div>
+            <hr style="opacity: 1">
+        </div>
+        <!-- En este punto comienza el apartado de recetas relacionadas, que contiene 3 cards -->
+        <div class="container px-5 py-5 mb-3">
+            <h2 class="text-center pb-4 fw-bold">RECETAS RELACIONADAS</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/img/recipe-card-1.png" class="card-img-top" alt="panqueques">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">PANQUEQUES CON <br> MANJAR Y CREMA</h5>
+                            <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est
+                                vulputate nostra, blandit erat luctus faucibus orci.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/img/recipe-card-2.png" class="card-img-top" alt="tiramisú">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">TIRAMISÚ</h5>
+                            <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
+                                lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/img/recipe-card-3.png" class="card-img-top" alt="plateada">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">PLATEADA</h5>
+                            <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam
+                                laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- En este contenedor aparece el apartado para suscribirse al newsletter -->
+        <div class="container-fluid text-center py-5 text-white" style="background-color:#DC3545; height: 534px;">
+            <div class="container pt-5">
+                <h2 class="fw-bold pt-5 pb-1 mx-5 px-5">SUSCRÍBETE EN NUESTRO NEWSLETTER</h2>
+                <p class="h4 pb-5 mx-5 px-5">y obtén las mejores recetas que tenemos en <span
+                        class="logo">Ricomida</span></p>
+                <button type="button" class="btn btn-outline-light px-5 fs-6" data-bs-toggle="tooltip"
+                data-bs-placement="top" title="Comienza a recibir nuestro newsletter">Empezar</button>
+            </div>
         </div>
     </main>
+    <footer>
+        <div class="container-fluid text-center text-white pb-1" style="background-color:#373A3C;">
+            <h1 class="logo p-5">Ricomida</h1>
+        </div>
+    </footer>
 </body>
 
 </html>
